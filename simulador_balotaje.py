@@ -8,9 +8,6 @@ BLOQUE_L_BASE = 3_670_000  # "Izquierda Unida" (Contigo Chile Mejor + afines)
 BLOQUE_R_BASE = 3_970_000  # "Derecha Dura/Soft" (Chile Vamos + Rep + PSC + afines)
 BLOQUE_C_BASE = 3_580_000  # "Bisagra" (PDG + Independientes puros + Centro)
 
-#Imagen de Doctor Strange
-st.image("strange.jpeg", caption="Escasas posibilidades, pero no imposibles")
-
 # --- 2. CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(layout="wide", page_title="Simulador Balotaje 2025")
 st.title("🗳️ ELECTORALÍSTICO: Simulador de Escenarios de Segunda Vuelta")
@@ -133,3 +130,6 @@ with st.expander("Ver detalle de la composición del voto"):
     * Votos Bloque Bisagra: `{(votos_C_efectivos * (transfer_C_to_R / 100)):,.0f}`
     * **Total: `{votos_Candidato_R:,.0f}`**
     """)
+
+#Imagen de Doctor Strange
+st.image("strange.jpeg", caption="Escasas posibilidades, pero no imposibles")
