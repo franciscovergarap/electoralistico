@@ -9,7 +9,7 @@ BLOQUE_R_BASE = 3_970_000  # "Derecha Dura/Soft" (Chile Vamos + Rep + PSC + afin
 BLOQUE_C_BASE = 3_580_000  # "Bisagra" (PDG + Independientes puros + Centro)
 
 #Imagen de Doctor Strange
-IMAGE_BASE64_STRING = "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdr-strange-told-tony-the-616-universe-is-the-only-one-that-v0-t7nms5b0p8891.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D85543c6ec56e0f725a3f2013cd291e0433a23920"
+st.image("strange.jpeg", caption="Escasas posibilidades, pero no imposibles")
 
 # --- 2. CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(layout="wide", page_title="Simulador Balotaje 2025")
