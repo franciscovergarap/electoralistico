@@ -35,12 +35,15 @@ Este simulador usa como ancla los resultados de la elección municipal 2024 por 
 
 
 A partir de ello, los escenarios de segunda vuelta se modelan no desde encuestas hipotéticas, sino desde la combinación “bloques municipales + coeficientes de transferencia” del centro hacia cada candidato: con Matthei, la derecha maximiza la captura del bloque blando y se configura una ventaja estructural frente a Jara; con Kast, la capacidad de seducir centro cae y emerge un escenario abierto donde el “cordón sanitario” anti-extrema derecha puede tornar competitiva a Jara; con Kaiser, la dependencia del voto ultra estrecha aún más el campo, volviendo plausible una mayoría para Jara. Así, tu hipótesis queda afinada: las encuestas son útiles para ordenar la primera vuelta, pero su capacidad para anticipar la segunda es limitada si no se recalibran con la estructura real del electorado bajo voto obligatorio. El insumo robusto hoy no es el porcentaje puntual de cada sondeo, sino la cartografía de bloques revelada en 2024 y su interacción con la identidad específica del candidato de derechas que logre llegar al balotaje.
+
+**NOTA: Programa asistido por Gemini 2.5 Pro**
+
 """)
 
 # --- 4. SELECCIÓN DE ESCENARIO (CANDIDATO) ---
 st.header("1. Defina el Escenario de Balotaje")
 
-candidato_L = "Karol Jara"
+candidato_L = "Jeannete Jara"
 candidato_R = st.selectbox(
     "Seleccione el/la candidato/a de Derecha:",
     ["Evelyn Matthei", "José Antonio Kast", "Johannes Kaiser"]
